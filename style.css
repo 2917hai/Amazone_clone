@@ -1,0 +1,1160 @@
+/*--------------------------------------------------------Nav Bar-----------------------------------------------------*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+div.sticky
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.navbar
+{
+    height: 60px;
+    width: 1525px;
+    background-color: black;
+    display: flex;
+
+
+}
+.amalogo
+{
+    height: 53px;
+    width: 100px;
+    color: white;
+    margin-left: 5px;
+}
+.logo
+{
+    border: 2px solid transparent;
+    width:115px;
+    height: 56px;
+    margin-left: 10px;
+    background-size: auto;
+    margin-top: 2px;
+}
+.logo:hover
+{
+    border: 2px solid white;
+
+}
+.address
+{
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 2px;
+    color: white;
+    border: 2px solid transparent ;
+    padding: 5px;
+    line-height: 20px;
+    margin-bottom: 2px;
+   
+}
+.address:hover
+{
+    border: 2px solid white;
+
+}
+.add1
+{
+
+    font-weight: bold;
+}
+.add2
+{
+    font-weight: 300px;
+}
+.inputbox
+{
+    
+    margin-top: 15px;
+}
+.input
+{
+    width: 660px;
+    height: 30px;
+}
+.option
+{
+    margin-top: 15px;
+    margin-left: 15px;
+   
+}
+.select
+{
+    width: 50px;
+    height: 30px;
+}
+.search
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: burlywood;
+}
+.search button
+{
+    padding: 5px;
+    font-weight: bold;
+    background-color: burlywood;
+}
+.search button:hover
+{
+    background-color:chocolate;
+}
+.language{
+    height: 55px;
+    width: 110px;
+
+    margin-top: 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border: 2px solid transparent ;
+
+
+}
+.language:hover
+{
+    border: 2px solid white;
+
+}
+.flag
+{
+    height: 5px;
+    width: 25px;
+    padding: 5px;
+    margin-top: 15px;
+    
+
+}
+.yellow
+{
+    height: 5px;
+    width: 25px;
+    background-color: chocolate;
+}
+.white
+{
+    height: 5px;
+    width: 25px;
+    background-color: white;
+}
+.green
+{
+    height: 5px;
+    width: 25px;
+    background-color: green;
+}
+.select1
+{
+    height: 20px;
+    width: 67px;
+    margin-left: 32px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.option1{
+    margin-top: -7px;
+    
+    
+}
+.nameaccbox
+{
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border: 2px solid transparent;
+}
+.nameaccbox:hover
+{
+    border: 2px solid white;
+}
+.name p
+{
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.select2
+{
+    height: 17px;
+    width: 100px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    font-size: 10px;
+    
+}
+.selectprofilebar
+{
+
+    background-color:rgb(152, 99, 226);
+    height: 100px;
+    width: 100px;
+    
+}
+.return
+{
+    height: 55px;
+    width: 80px;
+    padding: 5px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    border: 2px solid transparent;
+
+
+}
+ .return:hover
+ {
+    border: 2px solid white;
+ }
+
+.return p{
+    font-weight: bold;
+    color: aliceblue;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+.return h4
+{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.cart
+{
+
+    margin-left: 20px;
+    height: 55px;
+    width: 90px;
+    display: flex;
+    margin-top: 2px;
+    border: 2px solid transparent;
+
+
+    
+}
+.cart:hover
+{
+    border: 2px solid white;
+}
+.cart img
+{
+    margin-top: 15px;
+    height: 30px;
+    width: 45px;
+    margin-left: 5px;
+   
+}
+.cart p
+{
+color: white;
+font-weight: bold;
+margin-top: 30px;
+margin-left: 4px;
+margin-right: 5px;
+
+}
+/*--------------------------------------------------------Lable Bar-----------------------------------------------------*/
+.lablebar
+{
+    
+    height: 30px;
+    width: 1525px;
+    background-color: rgb(4, 24, 61);
+    display: flex;
+
+}
+.menu
+{
+  height:30px ;
+  width: 65px;
+  border: 2px solid transparent;
+  margin-bottom: 5px;
+  margin-right: 5px;
+ 
+}
+.menu:hover
+{
+    border: 2px solid white;
+}
+.menu img
+{
+    height:15px ;
+    width: 20px;
+    margin-top: 2px;
+    margin-left: 8px;
+    background-color: rgb(2 24 61);
+   
+    
+
+}
+.menu a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+
+
+    
+
+    
+}
+.menu1
+{
+height:30px ;
+width: 110px;
+border: 2px solid transparent;
+margin-top: 0px;
+margin-bottom: 50px;
+
+}
+.menu1:hover
+{
+    border: 2px solid white;
+}
+.menu1 a
+{
+  margin-top: 50px;
+  font-weight: bold;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 20px;
+
+}
+.menu2
+{
+    
+    border: 2px solid transparent;
+    margin-right: 6px;
+    height:30px ;
+    width: 60px;
+}
+.menu2:hover
+{
+    border: 2px solid white;
+}
+.menu2 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-right: 6px;
+}
+.menu3
+{
+    
+    border: 2px solid transparent;
+    margin-right: px;
+    width: 100px;
+    height:30px ;
+}
+.menu3:hover
+{
+    border: 2px solid white;
+}
+.menu3 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 12px;
+    margin-top: 25px;
+    margin-right: 6px;
+}
+.menu4
+{
+   
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 130px;
+    height:30px ;
+}
+.menu4:hover
+{
+    border: 2px solid white;
+}
+.menu4 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu5
+{
+   
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 100px;
+    height:30px ;
+}
+.menu5:hover
+{
+    border: 2px solid white;
+}
+.menu5 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu6
+{
+   
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 150px;
+    height:30px ;
+}
+.menu6:hover
+{
+    border: 2px solid white;
+}
+.menu6 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu7
+{
+   
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 90px;
+    height:30px ;
+}
+.menu7:hover
+{
+    border: 2px solid white;
+}
+.menu7 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu8
+{
+    
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 120px;
+    height:30px ;
+}
+.menu8:hover
+{
+    border: 2px solid white;
+}
+.menu8 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu9
+{
+   
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 200px;
+    height:30px ;
+}
+.menu9:hover
+{
+    border: 2px solid white;
+}
+.menu9 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu10
+{
+    
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 170px;
+    height:30px ;
+}
+.menu10:hover
+{
+    border: 2px solid white;
+}
+.menu10 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+.menu11
+{
+    
+    border: 2px solid transparent;
+    margin-right: 6px;
+    width: 160px;
+    height:30px ;
+}
+.menu11:hover
+{
+    border: 2px solid white;
+}
+.menu11 a
+{
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 6px;
+}
+
+
+
+/*------------------------------------------------ Animation Image ------------------------------------------------------*/
+.imagecontainer
+{
+    height: 590px;
+    width: 1525px;
+    position: relative;
+    background-image: url(animationimage1.jpg);
+    background-size: cover;
+    animation-name: imageanimatio;
+    animation-duration: 50s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    display: flex;
+   
+
+}
+
+
+.imageitem img
+{
+    height: 590px;
+    width: 1525px;
+
+}
+@keyframes imageanimatio
+{
+0%{
+    background-image: url(animationimage1.jpg);
+    
+}
+10%{
+    background-image: url(animationimage2.jpg);
+    
+}
+20%{
+    background-image: url(animationimage3.jpg);
+    
+}
+30%{
+    background-image: url(animationimage4.jpg);
+   
+}
+40%{
+    background-image: url(animationimage5.jpg);
+    
+}
+50%{
+    background-image: url(animationimage6.jpg);
+    
+}
+60%{
+    background-image: url(animationimage7.jpg);
+    
+}
+70%{
+    background-image: url(animationimage8.jpg);
+   
+}
+80%{
+    background-image: url(animationimage9.jpg);
+   
+}
+90%{
+    background-image: url(animationimage10.jpg);
+    
+}
+100%{
+    background-image: url(animationimage1.jpg);
+    
+} 
+}
+
+/* ------------------------------------------------------------------------------ Fashion Show ------------------------------------------------------------------------------------*/
+
+.box1
+{
+ background-color: white;
+ height: 400px;
+ width: 350px;
+ position: absolute;
+ top: 280px;
+ left: 15px;
+ font-weight: bold;
+ font-size: 21px;
+}
+.box1 p
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box1 h5
+{
+margin-left: 20px;
+margin-top: 300px;
+font-weight: bold;
+color: rgb(80, 7, 226);
+}
+.box1 h5:hover
+{
+    color: red;
+}
+.box1image
+{
+    background-image: url(box1imagee.webp);
+    background-size: cover;
+    position: absolute;
+    top: 80px;
+    height: 280px;
+    width: 320px;
+    margin-left: 15px;
+}
+
+.box2
+{
+ background-color: white;
+ height: 400px;
+ width: 350px;
+ position:absolute;
+ left: 390px;
+ top: 280px;
+ font-weight: bold;
+ font-size: 21px;
+
+}
+.box2 p
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box2 h5
+{
+margin-left: 20px;
+margin-top: 300px;
+font-weight: bold;
+color: rgb(80, 7, 226);
+}
+.box2 h5:hover
+{
+    color: red;
+}
+
+.box2image
+{
+ background-image: url(box2image.jpg);
+ background-size: cover;
+ height: 280px;
+ width: 320px;
+ position: absolute;
+ top: 80px;
+ margin-left: 15px;
+ 
+ 
+}
+.box3
+{
+ background-color: white;
+ height: 400px;
+ width: 350px;
+ position:absolute;
+ left: 775px;
+ top: 280px;
+ font-weight: bold;
+ font-size: 21px;
+}
+.box3 p
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box3 h5
+{
+margin-left: 20px;
+margin-top: 300px;
+font-weight: bold;
+color: rgb(80, 7, 226);
+}
+.box3 h5:hover
+{
+    color: red;
+}
+.box3image1
+{
+    background-image: url(kitchen1.jpg);
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    height: 72px;
+    width: 110px;
+    background-size: contain;
+}
+
+.box3image3
+{
+    background-image: url(kitchen3.jpg);
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    height: 72px;
+    width: 110px;
+    background-size: contain;
+}
+
+.box3image4
+{
+    background-image: url(kitchen4.jpg);
+    position: absolute;
+    top: 240px;
+    left: 200px;
+    height: 72px;
+    width: 110px;
+    background-size: contain;
+}
+.box3image2
+{
+    background-image: url(kitchen2.jpg);
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 72px;
+    width: 110px;
+    background-size: contain;
+}
+.kitchen1
+{
+    position: absolute;
+    top: 160px;
+    left: 30px;
+    font-weight: bold;
+   font-size: 15px;
+   width: 110px;
+}
+.kitchen2
+{
+    position: absolute;
+    top: 165px;
+    left: 190px;
+    font-weight: bold;
+   font-size: 15px;
+   width: 110px;
+}
+.kitchen3
+{
+    position: absolute;
+    top: 300px;
+    left: 25px;
+    font-weight: bold;
+   font-size: 20px;
+   width: 110px;
+}
+.kitchen4
+{
+    position: absolute;
+    top: 300px;
+    left: 190px;
+    font-weight: bold;
+   font-size: 15px;
+   width: 110px;
+}
+.box4
+{
+ background-color:white;
+ height: 400px;
+ width: 350px;
+ position:absolute;
+ left: 1150px;
+ top: 280px;
+ font-weight: bold;
+ font-size: 21px;
+}
+.box4 p
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box4 h5
+{
+margin-left: 20px;
+margin-top: 300px;
+font-weight: bold;
+color: rgb(80, 7, 226);
+}
+.box4 h5:hover
+{
+    color: red;
+}
+.box4image
+{
+    background-image: url(box4image.webp);
+    background-size: cover;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    height: 300px;
+    width: 200px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.wholebg
+{
+    background-color: rgb(108, 162, 162);
+    height: 1500px;
+    width: 1525px;
+}
+
+/*--------------------------------------------------------------------------- Fashion ---------------------------------------------------------------------------------------*/
+
+.fashion
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(214, 238, 96);
+    position: absolute;
+    top: 780px;
+    width: 1525px;
+    height: 400px;
+    
+   
+}
+.fashion1
+{
+    background-image: url(fashion1.webp);
+    background-size: contain;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    height: 280px;
+    width: 160px;
+   
+}
+
+.fashion2
+{
+    background-image: url(fashion2.webp);
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 250px;
+    height: 280px;
+    width: 180px;
+   
+}
+
+.fashion3
+{
+    background-image: url(fashion3.webp);
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    height: 280px;
+    width: 170px;
+   
+}
+
+.fashion4
+{
+    background-image: url(fashion4.webp);
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 750px;
+    height: 280px;
+    width: 180px;
+   
+}
+
+.fashion5
+{
+    background-image: url(fashion5.webp);
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 1000px;
+    height: 280px;
+    width: 190px;
+   
+}
+
+.fashion6
+{
+   background-image: url(fashion6.jpg);
+   background-size: cover;
+   position: absolute;
+   top: 60px;
+   left: 1250px;
+   height: 280px;
+   width: 200px;
+}
+
+.fashion h1
+{
+    font-weight: bold;
+    margin-left: -1250px;
+    padding: 10px;
+}
+
+/*---------------------------------------------------------------------------------- Electronic  --------------------------------------------------------------------------------*/
+
+.electronic
+{
+    position: absolute;
+    top: 1190px;
+    left: 0px;
+    background-color:wheat ;
+    height: 340px;
+    width: 1525px;
+    border: 10px solid rgb(162, 239, 207);
+    display: flex;
+}
+.head1
+{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.electronic1
+{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-image: url(electronic1.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+   
+}
+.electronic2
+{
+    position: absolute;
+    top: 50px;
+    left: 355px;
+    background-image: url(electronic2.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+.electronic3
+{
+    position: absolute;
+    top: 50px;
+    left: 660px;
+    background-image: url(electronic3.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+.electronic4
+{
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    background-image: url(electronic4.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+.electronic5
+{
+    position: absolute;
+    top: 50px;
+    left: 1250px;
+    background-image: url(electronic5.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+
+/*------------------------------------------------------------------------------- Mobile --------------------------------------------------------------------------------*/
+
+.mobile
+{
+    position: absolute;
+    top: 1550px;
+    left: 0px;
+    background-color: rgb(136, 166, 227);
+    height: 340px;
+    width: 1525px;
+    display: flex;
+
+
+}
+.head2
+{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.mobile1
+{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-image: url(mobile1.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+   
+}
+.mobile2
+{
+    position: absolute;
+    top: 50px;
+    left: 355px;
+    background-image: url(mobile2.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+.mobile3
+{
+    position: absolute;
+    top: 50px;
+    left: 660px;
+    background-image: url(mobile3.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+.mobile4
+{
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    background-image: url(mobile4.webp);
+    background-size:contain;
+    height: 240px;
+    width: 200px;
+}
+.mobile5
+{
+    position: absolute;
+    top: 50px;
+    left: 1250px;
+    background-image: url(mobile5.webp);
+    background-size: contain;
+    height: 240px;
+    width: 200px;
+}
+
+
+
+/*--------------------------------------------------------------------------------------footer---------------------------------------------------------------------------------*/
+
+footer
+{
+    position: absolute;
+    top: 1900px;
+    background-size: cover;
+    width: 1525px;
+}
+.footerSection {
+    max-width: 1719px;
+    height: 300px;
+    background-color: #172337;
+    display: flex;
+
+}
+
+.footerLeft {
+    display: flex;
+    width: 50%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+}
+
+.footerInfo {
+    width: 252px;
+    height: 194px;
+    padding-top: 40px;
+}
+
+.footerInfoHeading {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.footerContent {
+    color: #ffffff;
+    font-size: 12px;
+
+    line-height: 2;
+}
+
+.footerRight {
+    display: flex;
+    width: 50%;
+    margin-right: 30px;
+    justify-content: space-evenly;
+}
+
+.footerExtras {
+    margin-top: 0.35px;
+    background-color: #172337;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 1719px;
+    height: 70px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 2;
+    padding-left: 25px;
+    padding-right: 10px;
+}
